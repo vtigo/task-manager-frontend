@@ -1,5 +1,12 @@
+import Card from "./card";
 import Container from "./container";
 import Header from "./header";
-import Card from "./card";
+import Timer from "./timer";
 
-export { Container, Header, Card };
+export {
+  Card,
+  Container,
+  Header,
+  Timer
+};
+

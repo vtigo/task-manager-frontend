@@ -13,14 +13,14 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        // TODO: Manage colors by theme ()
+        dark: '#444850',
+        content: '#777D79',
+        darkHi: '#83E3B6',
+        lightHi: '#73C59F'
+      }
     },
-    colors: {
-      // TODO: Manage colors by theme ()
-      dark: '#2C2726',
-      card: '#48403E',
-      // primary: '#2C2726',
-      primary: 'white'
-    }
   },
   plugins: [],
 };

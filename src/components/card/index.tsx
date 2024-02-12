@@ -6,8 +6,8 @@ interface IContainerProps {
 
 export default function Card({ children, title }: IContainerProps) {
   return (
-    <div className="p-6 rounded-xl shadow-lg bg-card">
-      <h3 className="text-[#63E6B1] font-bold text-2xl mb-6">{title}</h3>
+    <div className="p-6 rounded-xl shadow-lg bg-zinc-50 dark:bg-content">
+      <h3 className="text-lightHi dark:text-darkHi font-bold text-2xl mb-2">{title}</h3>
       {children}
     </div>
   )
