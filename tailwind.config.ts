@@ -14,6 +14,13 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    colors: {
+      // TODO: Manage colors by theme ()
+      dark: '#2C2726',
+      card: '#48403E',
+      // primary: '#2C2726',
+      primary: 'white'
+    }
   },
   plugins: [],
 };
